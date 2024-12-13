@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Seblak Dower</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('background.jpeg') no-repeat center center fixed;
+            background-size: cover;
+
+        }
+        .navbar {
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            justify-content: space-around;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        .navbar a.active, .navbar a:hover {
+            background-color: #c0392b;
+            border-radius: 5px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        
+        .tabs {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .tabs button {
+            background-color: transparent;
+            border: 2px solid #c0392b;
+            color: #c0392b;
+            padding: 10px 20px;
+            margin: 0 5px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .tabs button.active, .tabs button:hover {
+            background-color: #c0392b;
+            color: #fff;
+        }
+        .gallery {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+  </style>
+  </head>
+<body>
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="best.html">Best Seller</a>
+        <a href="order.html">Order</a>
+    </div>
+    
+    <main>
+        <section class="container">
+            <h1>Welcome to Gourmet Haven</h1>
+            <p>Your destination for exquisite dining experiences and exceptional culinary creations.</p>
+        </section>
+
+        <section class="container">
+            <h2>Our Story</h2>
+            <p>Founded in 2010, Gourmet Haven has been dedicated to providing memorable dining experiences by combining fresh ingredients, innovative recipes, and outstanding service. Our restaurant is built on a passion for food and a commitment to excellence.</p>
+        </section>
+
+        <section class="container">
+            <h2>Meet the Team</h2>
+            <p>Our team is composed of experienced chefs, friendly servers, and passionate individuals who share a love for great food and hospitality. Every dish we serve is a reflection of our dedication to culinary artistry.</p>
+        </section>
+
+        <section class="container">
+            <h2>Our Values</h2>
+            <ul>
+                <li><strong>Fresh Ingredients:</strong> We source the finest, freshest ingredients to ensure top-quality dishes.</li>
+                <li><strong>Innovation:</strong> We embrace creativity to offer unique and flavorful dining experiences.</li>
+                <li><strong>Community:</strong> We strive to build connections and give back to the community that supports us.</li>
+            </ul>
+        </section>
+
+        <section class="container">
+            <h2>Gallery</h2>
+            <p>Take a look at some of our signature dishes and the ambiance of Gourmet Haven.</p>
+            <div class="gallery">
+                <img src="background.jpeg" alt="Signature Dish 1">
+                <img src="minuman.jpg" alt="Signature Dish 2">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Gourmet Haven. All rights reserved.</p>
+    </footer>
+</body>
+</html>
